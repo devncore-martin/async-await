@@ -1,1 +1,1 @@
-# c-async-await
+## 동기, 비동기에 대한 설명 README..
