@@ -14,7 +14,7 @@ class Program
         {
             Caller();
 
-            Console.ReadLine(); // 프로그램 종료 방지
+            Console.ReadLine(); 
         }
 
         async static private void MyMethodAsync(int count)
@@ -33,7 +33,7 @@ class Program
             for (int i = 1; i <= count; i++)
             {
                 Console.WriteLine("{0}/{1} ...", i, count);
-                await Task.Delay(100); // Thread.Sleep()의 비동기 버전
+                await Task.Delay(100);
             }
         }
 
