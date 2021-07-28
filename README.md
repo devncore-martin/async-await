@@ -23,12 +23,7 @@ class Program
             Console.WriteLine("D");
 
             await test(count);
-            var a = Stadium.GetExamStadiumDetailList();
-            foreach (var item in a)
-            {
-                Console.WriteLine("{0}테스트", item.ID);
-            }
-
+            
             Console.WriteLine("G");
             Console.WriteLine("H");
         }
@@ -53,5 +48,9 @@ class Program
             Console.WriteLine("F");
         }
     }
-TBD..
+```
+### _출력 콘솔_
+
+![image](https://user-images.githubusercontent.com/68521148/127269898-53585252-6939-4d90-b08b-3417482b6e6a.png)
+
 
