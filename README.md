@@ -55,9 +55,9 @@ class Program
 
 **작업 순서**  
 ▪️ &nbsp; Caller() 메서드 호출    
-▪️ &nbsp; A, B 출력 후 MyMethodAsync(int) 메서드 호출
-▪️ &nbsp; C, D 출력 후 test(int) 메서드 호출
-▪️ &nbsp; 1/3 출력 후 Caller()메서드로 다시 돌아가 E, F 출력
-▪️ &nbsp; test(int) 메서드 남은 작업 2/3, 3/3 출력
-▪️ &nbsp; test(int) 메서드가 마무리 될 때 까지 기다린 후 MyMethodAsync(int) 남은 작업 G, H 출력
+▪️ &nbsp; A, B 출력 후 MyMethodAsync(int) 메서드 호출    
+▪️ &nbsp; C, D 출력 후 test(int) 메서드 호출    
+▪️ &nbsp; 1/3 출력 후 Caller()메서드로 다시 돌아가 E, F 출력    
+▪️ &nbsp; test(int) 메서드 남은 작업 2/3, 3/3 출력    
+▪️ &nbsp; test(int) 메서드가 마무리 될 때 까지 기다린 후 MyMethodAsync(int) 남은 작업 G, H 출력    
 
